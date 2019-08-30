@@ -1,0 +1,8 @@
+server:
+  port: 15888
+
+mongodb:
+  analytics:
+    url: mongodb://root:root@192.168.10.93:27017/analytics
+  task:
+    url: mongodb://test:test@192.168.10.93:27017/test
